@@ -13,6 +13,7 @@ public class HashMapTest {
     public void test01() {
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("333", "444");
+
         String s = hashMap.get("333");
         System.out.println(s);
     }
